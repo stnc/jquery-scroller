@@ -12,17 +12,17 @@
 <script type='text/javascript' src='js/jquery-thumbnail-scroller.js'></script>
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<script>
+jQuery(document).ready(function() {
+  $('#unique-pager').StncThumbnailScroller({
+    speed: 100,
+    imagePictureAttr: '#showPicture'
+  });
+});
+</script>
 </head>
-<body class="">
-  <div class="container">
-    <div class="row">
-      <div id="qucikvewSlider"></div>
-      <!-- end qucikvewSlider -->
-      http://jquery-plugins.net/tag/thumbnail-scroller http://dopdemo.net/previews/?item=thumbnail-scroller-jquery-plugin
-      http://manos.malihu.gr/jquery-thumbnail-scroller/
-      <style>
+<body>
 
-</style>
       <div id="thumbnailsGallery">
         <!-- slideshow -->
         <!-- Pager -->
@@ -39,16 +39,17 @@
           </ul>
         </div>
         <!-- end unique-pager -->
-        <div id="demo5-btn" class="text-center">
-          <button onclick="javascript:slide('right');" class="btn" id="demo5-backward">
+      
+          <button  data-direction="prev" class="btn directionBtn">
             <i class="fa fa-arrow-down"></i> Backward
           </button>
-          <button onclick="javascript:slide('left');" class="btn" id="demo5-forward">
+          <button data-direction="next" class="btn directionBtn" >
             Forward <i class="fa fa-arrow-up"></i>
           </button>
-        </div>
+   
 
       </div>
     </div>
-    <div id="show"><img src="" alt="" /></div>
+    
+    <div id="showPicture"><img src="" alt="" /></div>
 </body>
