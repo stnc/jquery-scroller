@@ -1,7 +1,7 @@
-Demo 
-https://f438e8fe75e497c0d062821c0cb1bd93c16ac63c.googledrive.com/host/0B_0lzatfBXIlV2MtVTNwZ0QySTQ/
 
-<img src="https://github.com/stnc/jquery-thumbnail-scroller/blob/master/picture.png?raw=true">
+<a href="https://f438e8fe75e497c0d062821c0cb1bd93c16ac63c.googledrive.com/host/0B_0lzatfBXIlV2MtVTNwZ0QySTQ/">Demo LINK </a>
+
+<a href="https://f438e8fe75e497c0d062821c0cb1bd93c16ac63c.googledrive.com/host/0B_0lzatfBXIlV2MtVTNwZ0QySTQ/"><img src="https://github.com/stnc/jquery-thumbnail-scroller/blob/master/picture.png?raw=true"></a>
 #Initialization
 ##Initialize via javascript
 ```javascript
