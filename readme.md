@@ -20,12 +20,14 @@ jQuery(document).ready(function() {
         <!-- your content -->
           </ul>
 		</div>	
-  ```			
+ ```			
 ##picture show 
 ```html
    <img src="" alt="" id="showPicture">
-   	 ```	
+```	
+
 ##arrows 
+
 ```html
     <div data-direction="next" class="btn directionBtn">
       <i class="fa fa-arrow-up"></i>
@@ -34,7 +36,8 @@ jQuery(document).ready(function() {
         <div data-direction="prev" class="btn directionBtn">
       <i class="fa fa-arrow-down"></i>
     </div>		
-   ```  
+```  
+## cssfile  
 ```css
     
     .pictureShow{
