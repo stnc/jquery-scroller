@@ -8,11 +8,11 @@
     return this.each(function() {
       var element = $(this);
       var picture = jQuery('li img:first', element).data('src');
-      jQuery(settings.imagePictureAttr + " img").attr('src', picture);
+      jQuery(settings.imagePictureAttr ).attr('src', picture);
       //picture show click
       jQuery("li img", element).click(function() {
         var picture = jQuery(this).data('src');
-        jQuery(settings.imagePictureAttr + " img").attr('src', picture);
+        jQuery(settings.imagePictureAttr).attr('src', picture);
       });
       //direction button 
       jQuery(".directionBtn").click(function() {
