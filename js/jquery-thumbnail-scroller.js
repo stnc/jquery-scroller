@@ -12,7 +12,10 @@
       //picture show click
       jQuery("li img", element).click(function() {
         var picture = jQuery(this).data('src');
+        jQuery(settings.imagePictureAttr).hide();
+        jQuery(settings.imagePictureAttr).fadeIn(400);
         jQuery(settings.imagePictureAttr).attr('src', picture);
+
       });
       //direction button 
       jQuery(".directionBtn").click(function() {
